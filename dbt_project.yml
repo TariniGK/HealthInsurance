@@ -38,5 +38,11 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   HealthInsurance:
     staging:
+      +schema: BRONZE_DEV
       claims:
         +materialized: view
+      members:
+        +materialized: view
+
+    
+      
