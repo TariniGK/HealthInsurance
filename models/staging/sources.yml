@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    database: AIRBNB_DEV
+    schema: BRONZE_DEV
+
+    tables:
+      - name: CLAIMS
+        description: All Claims Raw Data 
+      - name: MEMBERS
+        description: All Members Raw Data
