@@ -4,7 +4,6 @@ sources:
   - name: raw
     database: AIRBNB_DEV
     schema: BRONZE_DEV
-
     tables:
       - name: CLAIMS
         description: All Claims Raw Data 
