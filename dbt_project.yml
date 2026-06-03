@@ -43,6 +43,10 @@ models:
         +materialized: view
       members:
         +materialized: view
+    
+    int:
+      +schema: BRONZE_DEV
+      +materialized: table
 
     
       
